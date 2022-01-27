@@ -1,0 +1,50 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap
+}
+
+.decrement {
+    font-size:medium;
+    background: white;
+    width: 200px;
+    height: 50px;
+    margin: 0 auto;
+    font-weight: bold;
+    border-radius: 200px;
+    -webkit-border-radius: 200px;
+    -moz-border-radius: 200px;
+    -ms-border-radius: 200px;
+    -o-border-radius: 200px;
+}
+.decrement:hover {
+    background: black;
+    color: white
+}
+
+.counter{
+    
+}
+
+.increment {
+    color: white ;
+    background: hotpink;
+    font-size:medium;
+    font-weight: bold;
+    width: 200px;
+    height: 50px;
+    margin: 0 auto;
+    border-radius: 200px;
+    border: none;
+}
+.increment:hover {
+    background: rebeccapurple;
+    color: white
+}
+
