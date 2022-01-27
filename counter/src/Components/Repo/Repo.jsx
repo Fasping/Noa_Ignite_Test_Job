@@ -2,8 +2,8 @@ import React, { useState, useEffect } from "react";
 
 const Repo = ({ counter }) => {
   const [repoInfo, setRepoInfo] = useState({});
-  
-    const repositories = [
+
+  const repositories = [
     "Marak/faker.js",
     "flutter/flutter",
     "eslint/eslint",
@@ -26,21 +26,20 @@ const Repo = ({ counter }) => {
 
   return (
     <div className="repo">
-      { repoInfo.id && (
+      {repoInfo.id && (
         <div>
           <h2>{repoInfo.full_name}</h2>
           <p>{repoInfo.description}</p>
 
-          <p>
-            {repoInfo.stargazers_count}
-          </p>
+          <p>{repoInfo.stargazers_count}</p>
         </div>
       )}
       {!repoInfo.id && (
         <div>
           <p>
             {repoInfo.message
-          }
+              ? repoInfo.message
+              : "the repository is currently unavailable"}
           </p>
         </div>
       )}

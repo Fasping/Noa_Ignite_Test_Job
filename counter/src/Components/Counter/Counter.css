@@ -28,9 +28,6 @@
     color: white
 }
 
-.counter{
-    
-}
 
 .increment {
     color: white ;
@@ -47,4 +44,10 @@
     background: rebeccapurple;
     color: white
 }
+.repo{
+   display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 
