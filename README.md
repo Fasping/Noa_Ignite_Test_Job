@@ -6,7 +6,6 @@ Guidelines
 - For this exercise we want you to use React. Feel free to use modern browser features and APIs
 - We will be judging the functionality as well as your coding style, the readability of your code and your creativity in solving the exercise
 - We prefer JSS for styling
-- Send us your source code/link to your CodePen/Codesandbox etc...
 
 Exercise
 
